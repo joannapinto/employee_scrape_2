@@ -1,4 +1,12 @@
-{
-  "scraper_id": "employee_scraper_v1",
-  "url": "https://drive.google.com/uc?id=1AWPf-pJodJKeHsARQK_RHiNsE8fjPCVK&export=download"
-}
+[
+  {
+    "project_id": "employee_scraper",
+    "scraper_id": "employee_scraper_v1",
+    "url": "https://drive.google.com/uc?id=1AWPf-pJodJKeHsARQK_RHiNsE8fjPCVK&export=download"
+  },
+  {
+    "project_id": "data_mapper",
+    "scraper_id": "data_mapper_v2",
+    "url": "https://example.com/data_mapper_source.xlsx"
+  }
+]

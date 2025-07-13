@@ -1,6 +1,6 @@
 import unittest
 import pandas as pd
-from processing.processor import normalize_data  
+from processing.C3processor import normalize_data  
 
 class TestNormalizeEmployeeData(unittest.TestCase):
 
