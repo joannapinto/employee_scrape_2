@@ -1,0 +1,23 @@
+User Story: Data Mapping and Filtering Using Reference Excel Sheet
+Title:
+As a developer, I want to filter rows from a reference Excel file based on values present in a raw_data file so that I can generate a mapped output dataset.
+
+Description:
+You are provided with a list of 100 sample records (raw_data.csv). Each record contains a unique identifier. You are also given a reference Excel file (reference_data.xlsx) that contains a master list with detailed information for a wide range of values.
+
+Your task is to:
+
+Match each value from the raw dataset with a specific column (lookup_key) in the reference Excel.
+
+If a match is found, extract the entire row from the reference Excel file.
+
+Combine all the matched rows into a new output file called mapped_output.csv.
+
+Acceptance Criteria:
+The script should only fetch rows that have matching values from the raw dataset.
+
+The output file should contain all columns from the reference Excel sheet.
+
+The number of rows in the output should correspond to the number of matching values.
+
+Ensure no duplicates if the raw data has repeated values.

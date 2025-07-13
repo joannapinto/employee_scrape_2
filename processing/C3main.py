@@ -1,10 +1,10 @@
 import pandas as pd
 import os
-from processor import normalize_data 
+from C3processor import normalize_data 
 
 def main():
-    input_file = "validated_employee_data.csv" 
-    output_file = "processed_employee_data.csv"
+    input_file = "C3validated_employee_data.csv" 
+    output_file = "C3processed_employee_data.csv"
 
     if not os.path.exists(input_file):
         print("Validated data not found. Run the ingestion phase first.")

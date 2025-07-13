@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import time
 
-LOCAL_FILENAME = "employee_data.csv"
+LOCAL_FILENAME = "C3employee_data.csv"
 MAX_RETRIES = 3
 
 def download_file(url, filename, retries=MAX_RETRIES):
@@ -78,6 +78,6 @@ def run_scraper(url):
         print("Data structure is invalid. Required columns are missing.")
         return
 
-    df.to_csv("validated_employee_data.csv", index=False)
+    df.to_csv("C3validated_employee_data.csv", index=False)
     print("Employee data validated and saved.")
  
